@@ -1,16 +1,14 @@
 # Line of Sight Renderer
 
-Single agent line of sight rendering for unity urp.
+Single agent line of sight rendering for Unity URP.
 
 ## What this is
 
-Line of Sight Renderer illuminates the parts of your scene that the player
-character can actually see in 3D space, and hides everything else. Vision is defined by a
-view cone plus a small radius around the character, and it is blocked by
+Line of Sight Renderer illuminates the parts of the scene a single agent can see in 3D space,
+and hides everything else. Vision is defined by a view cone plus a small radius around the character, and it is blocked by
 geometry: walls, roofs, raised platforms and terrain.
 
-This is not fog of war. Nothing is being layered over the world as an
-atmospheric effect, and no map memory is being revealed as you explore. 
+This is not fog of war. No map memory is being revealed as you explore. 
 
 The same visibility data is available on the CPU. The  mask used to draw the
 effect is read back and shared with gameplay code, so a prop that looks hidden is
