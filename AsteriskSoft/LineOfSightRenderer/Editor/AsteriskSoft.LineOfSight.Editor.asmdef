@@ -1,0 +1,26 @@
+{
+    "name": "AsteriskSoft.LineOfSight.Editor",
+    "rootNamespace": "AsteriskSoft.LineOfSight.Editor",
+    "references": [
+        "AsteriskSoft.LineOfSight",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "[17.0,17.3)",
+            "define": "LOS_URP_COMPAT_API"
+        }
+    ],
+    "noEngineReferences": false
+}

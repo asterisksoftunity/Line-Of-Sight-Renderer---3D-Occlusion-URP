@@ -1,0 +1,22 @@
+{
+    "name": "AsteriskSoft.LineOfSight.Demo.Editor",
+    "rootNamespace": "AsteriskSoft.LineOfSight.Demo.Editor",
+    "references": [
+        "AsteriskSoft.LineOfSight",
+        "AsteriskSoft.LineOfSight.Demo",
+        "AsteriskSoft.LineOfSight.Editor",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
