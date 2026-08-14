@@ -5,19 +5,16 @@ Single agent line of sight rendering for unity urp.
 ## What this is
 
 Line of Sight Renderer illuminates the parts of your scene that the player
-character can actually see, and hides everything else. Vision is defined by a
-view cone plus a small radius around the character, and it is blocked by real
+character can actually see in 3D space, and hides everything else. Vision is defined by a
+view cone plus a small radius around the character, and it is blocked by
 geometry: walls, roofs, raised platforms and terrain.
 
 This is not fog of war. Nothing is being layered over the world as an
-atmospheric effect, and no map memory is being revealed as you explore. What you
-get is a visualization of what the character can currently see.
+atmospheric effect, and no map memory is being revealed as you explore. 
 
-The same data is available on the CPU. The visibility mask used to draw the
+The same visibility data is available on the CPU. The  mask used to draw the
 effect is read back and shared with gameplay code, so a prop that looks hidden is
 also reported as hidden to your scripts.
-
-I hope you find this package useful in your projects.
 
 
 ## Requirements
@@ -26,7 +23,7 @@ I hope you find this package useful in your projects.
 - Universal Render Pipeline 17 or newer
 - Either render path. The render graph is used by default, and Compatibility
   Mode (Render Graph Disabled) is also supported on Unity 6.0 to 6.2, where that
-  setting still exists. No configuration is needed either way.
+  setting still exists. 
 
 
 ## Quick start
@@ -45,8 +42,7 @@ I hope you find this package useful in your projects.
 
 5. Set Eye Height on the agent to your character's eye level, then press Play.
 
-To see it working straight away, open the included demo scene at
-Demo/LineOfSightDemo.
+To see it working straight away, open the included demo scene at Demo/LineOfSightDemo.
 
 
 
