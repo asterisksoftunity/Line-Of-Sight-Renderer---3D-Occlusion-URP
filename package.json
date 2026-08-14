@@ -2,7 +2,7 @@
   "name": "com.asterisksoft.lineofsight",
   "version": "1.0.1",
   "displayName": "Line Of Sight Renderer 3D URP",
-  "description": "Line of Sight Renderer illuminates the parts of your scene that the player character can actually see, and hides everything else.",
+  "description": "Line of Sight Renderer 3D URP illuminates the parts of the scene a single agent can see in 3D space.",
   "unity": "6000.5",
   "unityRelease": "5f1",
   "author": {
