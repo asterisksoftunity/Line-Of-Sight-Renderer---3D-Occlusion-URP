@@ -1,0 +1,11 @@
+{
+  "name": "com.asterisksoft.lineofsight",
+  "version": "1.0.1",
+  "displayName": "Line Of Sight Renderer 3D URP",
+  "description": "Line of Sight Renderer illuminates the parts of your scene that the player character can actually see, and hides everything else.",
+  "unity": "6000.5.5f1",
+  "author": {
+    "name": "AsteriskSoft",
+    "url": "https://github.com/asterisksoftunity"
+  }
+}
